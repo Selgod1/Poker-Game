@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Jugadores
+comment1.params=contrasena
+comment1.target=Jugadores(java.lang.String)
+comment1.text=\r\n\ Constructor\ que\ genera\ los\ jugadores\r\n\ @param\ cada\ jugador\ debe\ establecer\ una\ contrase\u00F1a\ para\ ver\ sus\ cartas\r\n
+comment2.params=carta
+comment2.target=void\ darCarta(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ que\ a\u00F1ade\ 1\ carta\ al\ mazo\ del\ jugador,\ si\ el\ mazo\ est\u00E1\ lleno\ no\ hacer\ nada\r\n\ @param\ carta\ recibida\r\n
+comment3.params=posicionCarta
+comment3.target=java.lang.String\ quitarCarta(int)
+comment3.text=\r\n\ M\u00E9todo\ que\ permite\ quitarle\ 1\ carta\ al\ jugador\r\n\ @param\ Permite\ determinar\ cual\ de\ las\ cartas\ quitar\ o\ descartar\r\n
+comment4.params=contrasena
+comment4.target=void\ verMano(java.lang.String)
+comment4.text=\r\n\ M\u00E9todo\ que\ imprime\ las\ cartas\ de\ la\ mano\ del\ jugador,\ si\ la\ contrase\u00F1a\r\n\ es\ igual\ a\ la\ contrase\u00F1a\ inicialmente\ establecida\ para\ el\ jugador,\r\n\ imprime\ las\ cartas,\ sino\ no\r\n\ @param\ recibe\ una\ contrase\u00F1a\ para\ compararla\ con\ la\ del\ jugador\r\n\r\n
+comment5.params=cantidadFichas
+comment5.target=void\ darFichas(int)
+comment5.text=\r\n\ M\u00E9todo\ que\ suma\ fichas\ al\ jugador\r\n\ @param\ cantidad\ de\ fichas\ a\ sumar\r\n
+comment6.params=cantidadFichas
+comment6.target=int\ quitarFichas(int)
+comment6.text=\r\n\r\nM\u00E9todo\ que\ resta\ fichas\ al\ jugador,\ y\ devuelve\ el\ valor\ de\ las\ fichas\ restadas\r\n@param\ cantidad\ de\ fichas\ a\ restar\r\n
+comment7.params=
+comment7.target=boolean\ perdio()
+comment7.text=\r\n\ M\u00E9todo\ que\ checkea\ si\ un\ jugador\ se\ qued\u00F3\ sin\ fichas\r\n\ @return\ Si\ se\ qued\u00F3\ sin\ fichas,\ devuelve\ true,\ sino,\ false\r\n
+numComments=8
