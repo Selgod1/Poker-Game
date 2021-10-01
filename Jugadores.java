@@ -33,7 +33,7 @@ public class Jugadores {
         //un espacio vacío para recibir la nueva carta
         //El ciclo se detiene cuando se encuentra un espacio vacío o se recorre
         //toda la lista
-        while (mano[checkearMano] != null && checkearMano<5){
+        while (checkearMano<5 && mano[checkearMano] != null ){
             checkearMano++;
         }
         //Si los 5 espacios están ocupados, no se recibe la carta
